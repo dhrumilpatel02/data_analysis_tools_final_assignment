@@ -17,6 +17,9 @@ treatment: Have you sought treatment for a mental health condition?
 seek_help: Does your employer provide resources to learn more about mental health issues and how to seek help?
 
 Description of analysis:
+
+-I am uploaded "the mental_health_analysis.py" jupyter notebooks file for your reference, you can refer to "analysis.py" file too for the same.
+
 -As we have to find the effect of mental health illness and attitudes towards mental health vary by geographic location.
 
 -I decieded to carry out the analysis on the United States of America.
