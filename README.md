@@ -18,8 +18,10 @@ seek_help: Does your employer provide resources to learn more about mental healt
 
 Description of analysis:
 -As we have to find the effect of mental health illness and attitudes towards mental health vary by geographic location.
+
 -I decieded to carry out the analysis on the United States of America.
--At first I imported necessary libraries
+
+-In the "analysis.py" file at first in I imported necessary libraries
 
 -Then I imported the survey.csv dataset and made two different dataframes to run analysis on two different variables (seek_help and treatment)
 
