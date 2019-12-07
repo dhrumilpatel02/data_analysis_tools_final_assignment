@@ -17,3 +17,10 @@ df = df[df.seek_help==1]
 
 fd["treatment"] = fd["treatment"].replace(["Yes", "No"], [1, 0]) 
 fd = fd[fd.treatment==1]
+
+# Filtering out null values from the column 'state' and selected the country as USA
+df = df[df['state'].notnull()]
+df = df[df.Country=='United States']
+
+fd = fd[fd['state'].notnull()]
+fd = fd[fd.Country=='United States']
