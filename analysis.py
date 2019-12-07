@@ -24,3 +24,12 @@ df = df[df.Country=='United States']
 
 fd = fd[fd['state'].notnull()]
 fd = fd[fd.Country=='United States']
+
+# Selecting values where employer provide resources to learn more about mental health issues and how to seek help
+seekhelp_df = df.groupby(['state', 'seek_help']).size().reset_index()
+seekhelp_df.columns = ["States", "Seek", "Number 2"]
+print(seekhelp_df)
+
+treatment_fd = fd.groupby(['state', 'treatment']).size().reset_index()
+treatment_fd.columns = ["States", "Treatment", "Number 1"]
+print(treatment_fd)
