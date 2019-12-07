@@ -15,3 +15,6 @@ Country: Name of the coutries the survey includes
 state: If you live in the United States, which state or territory do you live in?
 treatment: Have you sought treatment for a mental health condition?
 seek_help: Does your employer provide resources to learn more about mental health issues and how to seek help?
+
+Description of analysis:
+In the new_branch readme file
