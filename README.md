@@ -32,7 +32,7 @@ Description of analysis:
 
 -Now as I am taking only the data of United States of America, I filtered null values from the column 'state' and selected the country as USA so we are left with only USA as a country as the data in state column consists only of states in USA.
 
--Next, I selected values where employers provide resources to learn more about mental health issues and for employees who seek help, I did it by filtering out any value except "1" which depicts "Yes".
+-Next, I selected values and counted them where employers provide resources to learn more about mental health issues and for employees who seek help, I did it by filtering out any value except "1" which depicts "Yes".
 
 -So now as we have only positive values in the dataset, we can start visualizing the data. I decieded bar chart would be a good choice for visualization as it shall apt to depict the type of data that we have and it would be easy to correlate if we find any relationship between states.
 
