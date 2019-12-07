@@ -33,3 +33,8 @@ print(seekhelp_df)
 treatment_fd = fd.groupby(['state', 'treatment']).size().reset_index()
 treatment_fd.columns = ["States", "Treatment", "Number 1"]
 print(treatment_fd)
+
+# Plotting both values on a bar graph for comparing and correlation
+seekhelp_df.plot.bar(x='States',y='Number 2')
+
+treatment_fd.plot.bar(x='States',y='Number 1')
