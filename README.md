@@ -18,18 +18,18 @@ seek_help: Does your employer provide resources to learn more about mental healt
 
 Description of analysis:
 
--I am uploaded "the mental_health_analysis.py" jupyter notebooks file for your reference, you can refer to "analysis.py" file too for the same.
+-I uploaded "the mental_health_analysis.py" jupyter notebooks file for your reference, you can refer to "analysis.py" file too for the same.
 
--As we have to find the effect of mental health illness and attitudes towards mental health vary by geographic location.
+-We have to find the effect of mental health illness and attitudes towards mental health vary by geographic location.
 
--I decieded to carry out the analysis on the United States of America.
+-I decided to carry out the analysis on the United States of America.
 
--In the "analysis.py" file at first in I imported necessary libraries
+-In the "analysis.py" file at first I imported necessary libraries
 
--Then I imported the survey.csv dataset and made two different dataframes to run analysis on two different variables (seek_help and treatment)
+-Then I imported the survey.csv dataset and made two different dataframes to run the analysis on two different variables (seek_help and treatment)
 
 -The reason to pick seek_help was that by this variable we can know if an employer provides resources to learn more about mental health issues and how to seek help. This shows a welcoming attitude from the employer point of view which we can be crucial in terms of initiation from the employees end, as a human would be more comfortable to speak up or seek any kind of help if they are showed a soothing nature from their employer.
--The reason to pick tratment was that by this variable we can know if the employee has sought treatment for a mental health condition. This is a direct indication as to if an employee tries to seek help in terms of treatment for any mental health condiation.
+-The reason to pick treatment was that by this variable we can know if the employee has sought treatment for a mental health condition. This is a direct indication as to if an employee tries to seek help in terms of treatment for any mental health condiation.
 
 -For better understanding of the variables and I renamed seek_help and treatment's categorical values to numerical values for smoother filtering.
 
@@ -37,7 +37,7 @@ Description of analysis:
 
 -Next, I selected values and counted them where employers provide resources to learn more about mental health issues and for employees who seek help, I did it by filtering out any value except "1" which depicts "Yes".
 
--So now as we have only positive values in the dataset, we can start visualizing the data. I decieded bar chart would be a good choice for visualization as it shall apt to depict the type of data that we have and it would be easy to correlate if we find any relationship between states.
+-So now as we have only positive values in the dataset, we can start visualizing the data. I decided bar chart would be a good choice for visualization as it shall apt to depict the type of data that we have and it would be easy to correlate if we find any relationship between states.
 
 -In the "seek_help.png" located in the new_branch files. We can see that states like California (CA), Washington (WA), New York (NY), Oregon (OR) have a big spike in terms of employees who sought treatment for a mental health condition.
 
